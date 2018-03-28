@@ -33,8 +33,8 @@ const fixedEjsResult = ejsFixed.renderFile(filepath, data, (err, str) => {
 
 console.log(
   // originEjsResult should be 'undefined', because you didn't return the result
-  'originEjsResult: \n', originEjsResult, '\n\n',
+  'originEjsResult: ', originEjsResult, '\n',
 
   // fixedEjsResult is successfully returned
-  'fixedEjsResult: \n', fixedEjsResult
+  'fixedEjsResult: ', fixedEjsResult
 );
