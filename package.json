@@ -1,0 +1,7 @@
+{
+  "name": "ejs-example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  }
+}
